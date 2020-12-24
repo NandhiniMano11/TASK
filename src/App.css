@@ -1,0 +1,90 @@
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+.accordionToggle{
+	background-color: green;
+
+}
+body{
+	background-color: black;
+	color: #fff;
+	font-family: 'system-ui';
+}
+
+h1{
+	font-weight: 800;
+	font-size: 3em;
+}
+
+.icon{
+	width: 30px;
+	height: 30px;
+   }
+.subtitle{
+	font-size: 1.25em;
+	opacity: 0.65;
+}
+.span-outline-veg{
+	border: 1px solid green;
+
+}
+.span-outline-nveg{
+	border: 1px solid red;
+
+}
+.card-block{
+	height: auto;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+	/* &:hover{
+		transform: translateY(-5px);
+		box-shadow: none;
+	} */
+}
+
+.custom{
+	text-align: right;
+}
+.cardheader{  
+	margin-right:10px ;
+	padding: 10px 0;
+	display: flex;
+	justify-content: flex-end;}
+
+
+	.panel-wrap {
+		margin-bottom: 5px;
+	  }
+	  
+	  .panel-wrap.active-panel .panel-header {
+		background: #396ea5;
+	  }
+	  .panel-wrap.active-panel .panel-header button {
+		color: #ffffff;
+	  }
+	  
+	  .panel-header {
+		border: 1px solid #cccc;
+		font-weight: normal;
+		border-radius: 5px 5px 0px 0px;
+	  }
+	  
+	  .panel-header button {
+		border: none;
+		background: transparent;
+	  }
+	  .panel-header button:focus {
+		outline: 0px auto -webkit-focus-ring-color;
+	  }
+	  
+	  .panel-body {
+		border: 1px solid #dddddd;
+		background: #efefef;
+		color: #333333;
+		padding: 5px;
+		border-top: none;
+	  }
